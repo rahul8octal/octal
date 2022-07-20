@@ -36,16 +36,14 @@
 <body data-spy="scroll" data-target=".fixed-top">
     
     <!-- Navigation -->
-     @section('navbar')
+     {{-- @section('navbar')
 		  @include('layout.navbar')
-      @show
+      @show --}}
    <!-- end of navbar -->
-    <!-- end of navigation -->
+
 
     @yield('content')
 
-
-    
     @section('footer')
 		@include('layout.footer')
     @show
